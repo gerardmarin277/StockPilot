@@ -1,0 +1,73 @@
+/* Configuración General */
+QWidget {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #2b2b2b;
+    background-color: #f8f9fa;
+}
+
+/* Sidebar Lateral */
+#Sidebar {
+    background-color: #1e293b;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+#SidebarTitle {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 15px;
+}
+
+/* Botones de Navegación del Sidebar */
+#Sidebar QPushButton {
+    color: #94a3b8;
+    background-color: transparent;
+    text-align: left;
+    padding: 12px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#Sidebar QPushButton:hover {
+    color: #ffffff;
+    background-color: #334155;
+    border-left: 4px solid #3b82f6;
+}
+
+#Sidebar QPushButton:checked {
+    color: #ffffff;
+    background-color: #0f172a;
+    font-weight: bold;
+    border-left: 4px solid #3b82f6;
+}
+
+/* Header Superior */
+#Header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    max-height: 60px;
+    padding: 10px 20px;
+}
+
+#HeaderTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+/* Vistas / Contenido Principal */
+#ContentArea {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Tarjetas Informativas (Cards) */
+.Card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+}
